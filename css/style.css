@@ -1,56 +1,18 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin: 40px;
     padding: 30px;
     font-family: 'Crimson Text', serif;
+    color: #2888DE;
+
 }
+
 
 .jumbotron {
     background-color:#2888DE;
     color: white;
      font-family:  'Crimson Text', serif;
     
-}
-
-h1 {
-  font-family:'Crimson Text', serif;
-}
-
-h6 {
-  font-family: 'Crimson Text', serif;
-}
-
-
-
-
-html,
-body,
-header,
-.view {
-  height: 100%;
-}
-
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 100vh;
-  }
-}
-
-.top-nav-collapse {
-  background-color: #78909c !important;
-}
-
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
-
-@media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #78909c !important;
-  }
 }
 
 h1 {
@@ -61,6 +23,10 @@ h5 {
   letter-spacing: 3px;
 }
 
+h3 {
+  letter-spacing: 2px;
+}
+
 .hr-light {
   border-top: 3px solid #fff;
   width: 80px;
@@ -69,18 +35,26 @@ h5 {
 
 /* Button style */
 
-.nav-pills {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: black;
-}
+.example_b {
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #2888DE;
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  }
+  .example_b:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
 
- 
- 
-
+   
+   .fa-envelope-open {
+     /* padding: 15px; */
+     width: 40px;
+     height: 20px;
+     
+   }
