@@ -2,7 +2,7 @@ body {
     background-color: white;
     margin: 40px;
     padding: 30px;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Merriweather', serif;
     color: #2888DE;
 
 }
@@ -11,7 +11,7 @@ body {
 .jumbotron {
     background-color:#2888DE;
     color: white;
-     font-family:  'Crimson Text', serif;
+     font-family: 'Merriweather', serif;
     
 }
 
@@ -58,3 +58,13 @@ h3 {
      height: 20px;
      
    }
+
+   .example {
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #2888DE;
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  }
