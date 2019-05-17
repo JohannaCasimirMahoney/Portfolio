@@ -1,19 +1,28 @@
+
 body {
-    background-color: white;
-    margin: 40px;
-    padding: 30px;
-    font-family: 'Merriweather', serif;
-    color: #2888DE;
-
-}
-
-
-.jumbotron {
-    background-color:#2888DE;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Philosopher', sans-serif;
+    background-color: #2888DE;
     color: white;
-     font-family: 'Merriweather', serif;
     
+    }
+    
+    .jumbotron {
+        background-color:rgb(150, 155, 160);
+        color: rgb(0, 0, 0);
+        font-family: 'Special Elite', cursive;
+        
+    }
+
+    .card {
+      color: #000;
+      padding: auto;
+    }
+
+a {
+    color: white;
 }
+
 
 h1 {
   letter-spacing: 8px;
@@ -28,8 +37,8 @@ h3 {
 }
 
 .hr-light {
-  border-top: 3px solid #fff;
-  width: 80px;
+  border-top: 1px solid rgb(238, 255, 0);
+  width: 1000px;
 }
 
 
@@ -61,10 +70,22 @@ h3 {
 
    .example {
   color: #fff !important;
-  text-transform: uppercase;
+ 
   background: #2888DE;
   padding: 5px;
   border-radius: 10px;
   display: inline-block;
   border: none;
   }
+
+  hr {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5px;
+    background-color:rgb(238, 255, 0);
+    
+    }
+
+    /* Image from left to right */
+  
